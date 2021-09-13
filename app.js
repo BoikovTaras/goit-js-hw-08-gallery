@@ -26,6 +26,10 @@ function createGaleryList(galleryItems) {
 
 function modalOpen(evt) {
   evt.preventDefault();
+
+  // const indexPic = galleryItems.map(indexImg => findIndex(indexImg));
+
+  // console.log(indexPic);
   const isImageEl = evt.target.classList.contains('gallery__image');
   if (!isImageEl) {
     return;
@@ -35,7 +39,9 @@ function modalOpen(evt) {
   modalEl.classList.add('is-open');
   imageFull.setAttribute('src', fullImg);
   imageFull.setAttribute('alt', fullAlt);
-}
+  // let indexPic = galleryItems.indexOf('isImageEl');
+  // console.log(indexPic);
+};
 
 function modalClose() {
   modalEl.classList.remove('is-open');
@@ -62,3 +68,4 @@ function closeOverlay() {
   imageFull.removeAttribute('src');
   imageFull.removeAttribute('alt');
 };
+
