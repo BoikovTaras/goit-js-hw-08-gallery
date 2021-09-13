@@ -42,3 +42,23 @@ function modalClose() {
   imageFull.removeAttribute('src');
   imageFull.removeAttribute('alt');
 };
+
+window.addEventListener("keydown", closeEscOverlay);
+
+function closeEscOverlay(event) {
+  if (event.key !== 'Escape') {
+    return
+  };
+  modalEl.classList.remove('is-open');
+  imageFull.removeAttribute('src');
+  imageFull.removeAttribute('alt');
+};
+
+const closeAtOverlay = document.querySelector('.lightbox__overlay');
+closeAtOverlay.addEventListener('click', closeOverlay);
+
+function closeOverlay() {
+  modalEl.classList.remove('is-open');
+  imageFull.removeAttribute('src');
+  imageFull.removeAttribute('alt');
+};
