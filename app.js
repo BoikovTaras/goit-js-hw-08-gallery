@@ -24,7 +24,7 @@ function createGaleryList(galleryItems) {
     .join('');
 };
 
-function modalOpen(evt) {
+function modalOpen(evt) { 
   evt.preventDefault();
 
   // const indexPic = galleryItems.map(indexImg => findIndex(indexImg));
