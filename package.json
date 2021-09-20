@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/BoikovTaras/goit-js-hw-08-gallery/issues"
   },
-  "homepage": "https://github.com/BoikovTaras/goit-js-hw-08-gallery#readme"
+  "homepage": "https://github.com/BoikovTaras/goit-js-hw-08-gallery#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.6",
+    "postcss-modules": "^4.2.2",
+    "sass": "^1.41.1"
+  }
 }
