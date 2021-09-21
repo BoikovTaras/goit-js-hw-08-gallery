@@ -2,7 +2,7 @@
   "name": "goit-js-hw-08-gallery",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel index.html",
@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BoikovTaras/goit-js-hw-08-gallery.git"
+    "url": "git+https://github.com/YaroslavKnysh/goit-js-hw-08-gallery.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BoikovTaras/goit-js-hw-08-gallery/issues"
+    "url": "https://github.com/YaroslavKnysh/goit-js-hw-08-gallery/issues"
   },
-  "homepage": "https://github.com/BoikovTaras/goit-js-hw-08-gallery#readme",
+  "homepage": "https://github.com/YaroslavKnysh/goit-js-hw-08-gallery#readme",
+  "dependencies": {
+    "joi": "^17.4.2"
+  },
   "devDependencies": {
-    "autoprefixer": "^10.3.4",
-    "cssnano": "^5.0.8",
-    "postcss": "^8.3.6",
-    "postcss-modules": "^4.2.2",
-    "sass": "^1.41.1"
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.42.0"
   }
 }

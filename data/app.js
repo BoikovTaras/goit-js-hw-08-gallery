@@ -1,4 +1,4 @@
-import galleryItems from './data/gallery.js'
+import galleryItems from './gallery.js'
 
 
 const galeryList = document.querySelector('.js-gallery');
